@@ -1,23 +1,31 @@
 import Image from "next/image";
+import { ReactNode } from "react";
 
-export default function Background() {
+type BackgroundProps = {
+  desktopSrc: string;
+  mobileSrc?: string;
+  children?: ReactNode;
+};
+
+export default function Background({
+  desktopSrc,
+  mobileSrc,
+  children,
+}: BackgroundProps) {
   return (
     <>
       {/* Desktop */}
-      <div className="fixed inset-0 -z-50 hidden md:block">
-        <Image
-          src="/images/main-bg.png"
-          alt=""
-          fill
-          priority
-          className="object-cover"
-        />
+      <div
+        className="object-cover
+    -z-10"
+      >
+        <Image src={desktopSrc} alt="" fill priority className="object-cover" />
       </div>
 
       {/* Mobile */}
-      <div className="fixed inset-0 -z-50 block md:hidden">
+      <div className="inset-0 -z-50 block md:hidden">
         <Image
-          src="/images/mobile-bg.png"
+          src={mobileSrc ?? desktopSrc}
           alt=""
           fill
           priority

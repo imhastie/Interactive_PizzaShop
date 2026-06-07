@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { BookOpen, Mouse, Pizza } from "lucide-react";
 import GameButton from "../ui/GameButton";
+import Background from "./Background";
 
 export default function Hero() {
   return (
@@ -13,6 +14,16 @@ export default function Hero() {
     relative
   "
     >
+      <Image
+        src="/images/main-bg.png"
+        alt=""
+        fill
+        priority
+        className="
+    object-cover
+    -z-10
+  "
+      />
       <div
         className="
       absolute inset-0 pointer-events-none z-10

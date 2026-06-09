@@ -32,7 +32,7 @@ PizzaCraft allows users to explore the menu, discover best-selling pizzas, read 
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/pizzacraft.git
+git clone https://github.com/imhastie/Interactive_PizzaShop
 ```
 
 Install dependencies:

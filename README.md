@@ -4,6 +4,9 @@ A playful pizza restaurant website inspired by cozy cooking games.
 
 PizzaCraft allows users to explore the menu, discover best-selling pizzas, read customer reviews, and build their own custom pizza through an interactive experience.
 
+> 🚧 This project is currently under active development.
+> New features, improvements, and refinements are being added regularly.
+
 ## ✨ Features
 
 - 🎮 Game-inspired UI/UX

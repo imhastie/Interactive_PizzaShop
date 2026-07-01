@@ -10,20 +10,20 @@ const pizzas = [
     name: "Margherita",
     description: "Classic tomato, fresh mozzarella & basil",
     price: "$11.99",
-    image: "/images/pizza-margherita.png",
+    image: "/images/pizzas/pizza-margherita.png",
   },
   {
     name: "Pepperoni Supreme",
     description: "Double pepperoni, olives, roasted peppers & smoky sauce",
     price: "$15.99",
-    image: "/images/pizza-pepperoni.png",
+    image: "/images/pizzas/pizza-pepperoni.png",
     featured: true,
   },
   {
     name: "Veggie Feast",
     description: "Mushrooms, peppers, olives & fresh herbs",
     price: "$12.99",
-    image: "/images/pizza-veggie.png",
+    image: "/images/pizzas/pizza-veggie.png",
   },
 ];
 
